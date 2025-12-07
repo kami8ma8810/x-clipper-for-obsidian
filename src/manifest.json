@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "1.0.0",
+  "default_locale": "ja",
+  "icons": {
+    "128": "icons/icon.svg"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "128": "icons/icon.svg"
+    },
+    "default_title": "__MSG_extName__"
+  },
+  "background": {
+    "service_worker": "src/background/service-worker.ts",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://twitter.com/*"],
+      "js": ["src/content/content-script.ts"]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://localhost:27123/*",
+    "http://localhost:27124/*",
+    "http://127.0.0.1:27123/*",
+    "http://127.0.0.1:27124/*",
+    "https://publish.twitter.com/*",
+    "https://pbs.twimg.com/*"
+  ]
+}

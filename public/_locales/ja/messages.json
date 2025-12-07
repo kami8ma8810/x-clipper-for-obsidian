@@ -1,0 +1,252 @@
+{
+  "extName": {
+    "message": "X Clipper for Obsidian",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "X(Twitter)のポストをObsidianに保存します",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "ポストを保存",
+    "description": "Popup title"
+  },
+  "urlPlaceholder": {
+    "message": "ポストのURLを入力...",
+    "description": "URL input placeholder"
+  },
+  "folderLabel": {
+    "message": "保存先フォルダ",
+    "description": "Folder selection label"
+  },
+  "saveButton": {
+    "message": "保存",
+    "description": "Save button text"
+  },
+  "saving": {
+    "message": "保存中...",
+    "description": "Saving state text"
+  },
+  "saveSuccess": {
+    "message": "保存しました！",
+    "description": "Success message"
+  },
+  "saveError": {
+    "message": "保存に失敗しました",
+    "description": "Error message"
+  },
+  "invalidUrl": {
+    "message": "有効なX/TwitterのURLを入力してください",
+    "description": "Invalid URL error"
+  },
+  "obsidianNotConnected": {
+    "message": "Obsidianに接続できません。Obsidianが起動しているか確認してください。",
+    "description": "Obsidian connection error"
+  },
+  "settings": {
+    "message": "設定",
+    "description": "Settings link text"
+  },
+  "onboardingStepWelcome": {
+    "message": "ようこそ",
+    "description": "Onboarding step 1 label"
+  },
+  "onboardingStepFeatures": {
+    "message": "機能紹介",
+    "description": "Onboarding step 2 label"
+  },
+  "onboardingStepSetup": {
+    "message": "設定",
+    "description": "Onboarding step 3 label"
+  },
+  "onboardingStepConnect": {
+    "message": "接続",
+    "description": "Onboarding step 4 label"
+  },
+  "onboardingWelcomeTitle": {
+    "message": "ようこそ！",
+    "description": "Welcome title"
+  },
+  "onboardingWelcomeDescription": {
+    "message": "X Clipper for Obsidian をインストールしていただきありがとうございます。この拡張機能を使うと、X（Twitter）のポストを Obsidian のノートとして簡単に保存できます。",
+    "description": "Welcome description"
+  },
+  "onboardingWelcomeHighlight": {
+    "message": "ポストが削除されても、あなたのノートはずっと残ります。",
+    "description": "Welcome highlight text"
+  },
+  "onboardingFeatureTitle": {
+    "message": "この拡張機能でできること",
+    "description": "Feature section title"
+  },
+  "onboardingFeature1": {
+    "message": "ポストをMarkdown形式で保存",
+    "description": "Feature 1 name"
+  },
+  "onboardingFeature1Desc": {
+    "message": "Obsidianで編集・検索・リンクが可能",
+    "description": "Feature 1 description"
+  },
+  "onboardingFeature2": {
+    "message": "画像も自動で保存",
+    "description": "Feature 2 name"
+  },
+  "onboardingFeature2Desc": {
+    "message": "添付画像をローカルにダウンロード",
+    "description": "Feature 2 description"
+  },
+  "onboardingFeature3": {
+    "message": "スレッドをまとめて保存",
+    "description": "Feature 3 name"
+  },
+  "onboardingFeature3Desc": {
+    "message": "連投リプライを1つのノートに",
+    "description": "Feature 3 description"
+  },
+  "onboardingFeature4": {
+    "message": "タグで整理",
+    "description": "Feature 4 name"
+  },
+  "onboardingFeature4Desc": {
+    "message": "自分だけのナレッジベースを構築",
+    "description": "Feature 4 description"
+  },
+  "onboardingSetupTitle": {
+    "message": "Obsidianの準備",
+    "description": "Setup section title"
+  },
+  "onboardingSetupDescription": {
+    "message": "この拡張機能を使うには、Obsidian に「Local REST API」プラグインをインストールする必要があります。",
+    "description": "Setup description"
+  },
+  "onboardingSetupStep1": {
+    "message": "Obsidian を起動",
+    "description": "Setup step 1"
+  },
+  "onboardingSetupStep2": {
+    "message": "設定 → コミュニティプラグイン → 参照 をクリック",
+    "description": "Setup step 2"
+  },
+  "onboardingSetupStep3": {
+    "message": "「Local REST API」を検索してインストール",
+    "description": "Setup step 3"
+  },
+  "onboardingSetupStep4": {
+    "message": "プラグインを有効化",
+    "description": "Setup step 4"
+  },
+  "onboardingSetupStep5": {
+    "message": "プラグイン設定を開き、API キーをコピー",
+    "description": "Setup step 5"
+  },
+  "onboardingSetupNote": {
+    "message": "準備ができたら「次へ」をクリックしてください",
+    "description": "Setup note"
+  },
+  "onboardingConnectionTitle": {
+    "message": "接続設定",
+    "description": "Connection section title"
+  },
+  "onboardingConnectionDescription": {
+    "message": "Obsidian Local REST API の設定情報を入力してください。",
+    "description": "Connection description"
+  },
+  "onboardingApiUrlHint": {
+    "message": "通常は変更不要です",
+    "description": "API URL hint"
+  },
+  "onboardingTestConnection": {
+    "message": "接続テスト",
+    "description": "Test connection button"
+  },
+  "onboardingConnectionSuccess": {
+    "message": "Obsidianに接続成功！",
+    "description": "Connection success message"
+  },
+  "onboardingConnectionFailed": {
+    "message": "接続できませんでした。Obsidianが起動しているか、Local REST APIプラグインが有効か確認してください。",
+    "description": "Connection failed message"
+  },
+  "onboardingPrev": {
+    "message": "戻る",
+    "description": "Previous button"
+  },
+  "onboardingNext": {
+    "message": "次へ",
+    "description": "Next button"
+  },
+  "onboardingComplete": {
+    "message": "完了",
+    "description": "Complete button"
+  },
+  "settingsOpen": {
+    "message": "設定を開く",
+    "description": "Settings button aria-label when closed"
+  },
+  "settingsClose": {
+    "message": "設定を閉じる",
+    "description": "Settings button aria-label when open"
+  },
+  "mdPostTitle": {
+    "message": "@$username$ のポスト",
+    "description": "Markdown heading for single post",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "username"
+      }
+    }
+  },
+  "mdThreadTitle": {
+    "message": "@$username$ のスレッド",
+    "description": "Markdown heading for thread",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "username"
+      }
+    }
+  },
+  "mdQuotedSource": {
+    "message": "引用元",
+    "description": "Markdown heading for quoted tweet"
+  },
+  "mdSavedAt": {
+    "message": "保存日時: $datetime$",
+    "description": "Saved at footer text",
+    "placeholders": {
+      "datetime": {
+        "content": "$1",
+        "example": "2024/1/1 12:00:00"
+      }
+    }
+  },
+  "mdQuoteUnavailable": {
+    "message": "（引用元の内容を取得できませんでした）",
+    "description": "Message when quoted tweet content is unavailable"
+  },
+  "mdVideoWarningTitle": {
+    "message": "このポストには動画が含まれています",
+    "description": "Warning callout title for posts with video"
+  },
+  "mdVideoWarningBody": {
+    "message": "動画はダウンロードできないため、元のポストをご確認ください。",
+    "description": "Warning callout body for posts with video"
+  },
+  "mdGifWarningTitle": {
+    "message": "このポストにはアニメーションGIFが含まれています",
+    "description": "Warning callout title for posts with animated GIF"
+  },
+  "mdGifWarningBody": {
+    "message": "GIFはダウンロードできないため、元のポストをご確認ください。",
+    "description": "Warning callout body for posts with animated GIF"
+  },
+  "mdVideoAndGifWarningTitle": {
+    "message": "このポストには動画とアニメーションGIFが含まれています",
+    "description": "Warning callout title for posts with both video and animated GIF"
+  },
+  "mdVideoAndGifWarningBody": {
+    "message": "これらのメディアはダウンロードできないため、元のポストをご確認ください。",
+    "description": "Warning callout body for posts with both video and animated GIF"
+  }
+}
